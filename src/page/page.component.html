@@ -7,23 +7,17 @@
                 </a>
             </div>
             <div class="col-sm-5 col-xs-5">
-                <form>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#">课程
-                                <p class="glyphicon glyphicon-chevron-down"></p>
-                            </a>
-                        </li>
-                        <li>
-                            <input type="text" style="color: rgb(199, 196, 196);font-size: 14px;" placeholder="腾讯课堂设计大师">
-                        </li>
-                        <li>
-                            <a >
-                                <p class="glyphicon glyphicon-search"></p>
-                            </a>
-                        </li>
-                    </ul>
-                </form>
+                <div class="input-group" id="search">
+                    <span class="input-group-addon " id="search-classroom">课程
+                        <span class="glyphicon glyphicon-chevron-down"></span>
+                    </span>
+                    <input type="text" placeholder="腾讯课堂设计大师班">
+                    <span class="input-group-addon" id="search-bt">
+                        <a href="#">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </a>
+                    </span>
+                </div>
             </div>
             <div class="col-sm-4 col-xs-4">
                 <ul class="nav-list list-inline">
@@ -47,7 +41,7 @@
     </nav>
 </div>
 <div class="carousel container-fluid">
-    
+
     <carousel>
         <slide style="background: rgb(20, 34, 73);">
             <img src="../assets/imgs/0.jpg" alt="First slide">
@@ -59,4 +53,28 @@
             <img src="../assets/imgs/2.jpg" alt="Third slide">
         </slide>
     </carousel>
+    <div class="carousel-login">
+        <div class="login">
+            <p>跟进你的学习进度</p>
+            <img src="../assets/imgs/login-img.png" alt="">
+            <a>登录</a>
+        </div>
+    </div>
+
+</div>
+<div class="container-fluid">
+    <div class="option">
+        <ul class="list-inline">
+            <li [class.option-li]="liClick" (click)="liClick=!liClick">精选推荐</li>
+            <li>编程语言</li>
+            <li>平面设计</li>
+            <li>高中</li>
+            <li>实用英语</li>
+            <li>文艺修养</li>
+        </ul>
+        <a href="#">修改兴趣</a>
+    </div>
+</div>
+<div id="router">
+
 </div>

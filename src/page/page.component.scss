@@ -17,8 +17,8 @@
 .nav-img {
     display: block;
     height: 80px;
-    padding-top:15px; 
-    margin-left:0px;  
+    padding-top: 15px;
+    margin-left: 0px;
 }
 
 .row {
@@ -28,9 +28,11 @@
 .nav-bar .nav-list li {
     margin-right: 15px;
 }
-.nav-list{
-    margin-left: 60px;
+
+.nav-list {
+    margin-right: 60px;
 }
+
 .nav-bar .nav-list a {
     text-decoration: none;
     color: #333;
@@ -39,38 +41,174 @@
     line-height: 80px;
 }
 
-.nav-bar form {
+#search {
     width: 350px;
     height: 48px !important;
-    margin: 17px auto auto 50px;
-    border:1px solid   rgb(199, 196, 196);
-}
-.nav-bar form a{
-    color: #333;
-    font-family: "微软雅黑";
-    font-size: 14px;
-    height: 45px;
+    margin: 15px auto auto 50px;
+    border: 1px solid rgb(199, 196, 196);
+    border-radius: 0px !important;
 }
 
-.nav-bar form input {
-    height: 45px;
+#search input {
     width: 240px;
+    height: 48px;
+    text-indent: 15px;
+    border: none;
+    border-left: 1px solid rgb(199, 196, 196);
+}
+
+#search-classroom {
+    border-radius: 0px !important;
+    width: 80px;
+    background-color: white;
     border: none;
 }
 
-.carousel{
+#search-bt {
+    border-radius: 0px !important;
+    width: 80px;
+    background-color: #23b8ff;
+    border: none;
+}
+#search-bt:hover{
+    background-color: #10aaf1;
+}
+
+#search-bt a {
+    font-size: 22px;
+    color: white;
+}
+
+.carousel {
     height: 300px;
 }
-.carousel img{
+
+.carousel img {
     display: block;
     height: 300px;
     width: 710px;
     margin: 0px auto 0px auto;
-    
 }
 
-@media (max-width:1200px) { 
-    .carousel{
+.carousel-login {
+    position: relative;
+    top: -300px;
+    width: 1200px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login {
+    position: absolute;
+    height: 260px;
+    width: 220px;
+    top: 15px;
+    right: 0px;
+    background-color: white;
+}
+
+.login p {
+    margin-top:20px; 
+    font-size: 16px;
+    color: rgb(173, 171, 171);
+    text-align: center;
+}
+
+.login img {
+    height: 150px;
+    width: 160px;
+    margin-top: 5px;
+}
+.login a {
+    display: block;
+    height: 50px;
+    width: 200px;
+    margin: 5px auto auto auto;
+    background-color: #23b8ff;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 3px;
+}
+.login a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #10aaf1;
+}
+
+.option {
+    height: 70px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.option ul {
+    width: 730px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.option li {
+    height: 70px;
+    width: 100px;
+    font-size: 22px;
+    color: rgb(110, 110, 110);
+    text-align: center;
+    line-height: 70px;
+    margin-left: 10px;
+}
+
+.option li:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.option-li {
+    color: #23b8ff !important;
+    border-bottom: 4px solid #23b8ff;
+}
+
+.option a {
+    position: absolute;
+    height: 30px;
+    width: 80px;
+    right: 30px;
+    top: 20px;
+    border: 1px solid #999;
+    font-size: 1px;
+    text-align: center;
+    line-height: 30px;
+    color: #333;
+    text-decoration: none;
+}
+
+.option a:hover {
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container-fluid {
+    border: 1px solid rgb(199, 196, 196);
+}
+
+#router {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1800px;
+    background: rgb(148, 193, 211);
+}
+
+@media (max-width:1200px) {
+    .carousel,
+    .option,
+    #router {
         width: 1200px;
     }
- }
+}

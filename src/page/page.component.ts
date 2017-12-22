@@ -7,6 +7,8 @@ import { Imgs } from '../assets/cont/carouse.imgs';
   styleUrls: ['./page.component.scss']
 })
 export class PageComponent {
-  title = 'app';
+  liClick=false;
+
+
   
 }
