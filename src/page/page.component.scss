@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.heights {
+    height: 100%;
+}
+
+.nav-bar {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+}
+
+.nav-img {
+    display: block;
+    height: 80px;
+    padding-top:15px; 
+    margin-left:0px;  
+}
+
+.row {
+    height: 80px !important;
+}
+
+.nav-bar .nav-list li {
+    margin-right: 15px;
+}
+.nav-list{
+    margin-left: 60px;
+}
+.nav-bar .nav-list a {
+    text-decoration: none;
+    color: #333;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    line-height: 80px;
+}
+
+.nav-bar form {
+    width: 350px;
+    height: 48px !important;
+    margin: 17px auto auto 50px;
+    border:1px solid   rgb(199, 196, 196);
+}
+.nav-bar form a{
+    color: #333;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    height: 45px;
+}
+
+.nav-bar form input {
+    height: 45px;
+    width: 240px;
+    border: none;
+}
+
+.carousel{
+    height: 300px;
+}
+.carousel img{
+    display: block;
+    height: 300px;
+    width: 710px;
+    margin: 0px auto 0px auto;
+    
+}
+
+@media (max-width:1200px) { 
+    .carousel{
+        width: 1200px;
+    }
+ }
