@@ -8,7 +8,7 @@
 }
 
 .nav-bar {
-    width: 1200px;
+    width: 1250px;
     margin-left: auto;
     margin-right: auto;
     height: 80px;
@@ -70,7 +70,8 @@
     background-color: #23b8ff;
     border: none;
 }
-#search-bt:hover{
+
+#search-bt:hover {
     background-color: #10aaf1;
 }
 
@@ -93,7 +94,7 @@
 .carousel-login {
     position: relative;
     top: -300px;
-    width: 1200px;
+    width: 1250px;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -109,7 +110,7 @@
 }
 
 .login p {
-    margin-top:20px; 
+    margin-top: 20px;
     font-size: 16px;
     color: rgb(173, 171, 171);
     text-align: center;
@@ -120,6 +121,7 @@
     width: 160px;
     margin-top: 5px;
 }
+
 .login a {
     display: block;
     height: 50px;
@@ -132,15 +134,52 @@
     line-height: 50px;
     border-radius: 3px;
 }
-.login a:hover{
+
+.login a:hover {
     cursor: pointer;
     text-decoration: none;
     background-color: #10aaf1;
 }
 
+#carousel-nav {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 300px;
+    width: 270px;
+    background-color: rgb(252, 250, 250);
+}
+
+#carousel-nav ul li {
+    height: 50px;
+    width: 270px;
+    line-height: 50px;
+}
+
+#carousel-nav ul li:hover {
+    background-color: white;
+}
+
+#carousel-nav ul li a {
+    color: rgb(46, 45, 45);
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+#carousel-nav ul li a b {
+    color: rgb(46, 45, 45);
+    font-size: 16px !important;
+}
+
+#carousel-nav ul li i {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: auto;
+}
+
 .option {
     height: 70px;
-    width: 1200px;
+    width: 1250px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -198,17 +237,17 @@
 }
 
 #router {
-    width: 1200px;
+    width: 1250px;
     margin-left: auto;
     margin-right: auto;
     height: 1800px;
     background: rgb(148, 193, 211);
 }
 
-@media (max-width:1200px) {
+@media (max-width:1250px) {
     .carousel,
     .option,
     #router {
-        width: 1200px;
+        width: 1250px;
     }
 }
