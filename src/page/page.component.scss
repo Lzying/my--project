@@ -249,10 +249,9 @@
     height: 300px;
     width: 800px;
     background-color:white; 
+    box-shadow:0px 2px 7px rgb(187, 186, 186);
 }
-.carousel-nav-content:hover {
-    box-shadow:0px 1px 3px rgb(207, 207, 207);
-}
+
 .carousel-nav-content li{
     width: 800px !important;
 }
@@ -343,6 +342,8 @@
     height: 1800px;
     background: rgb(148, 193, 211);
 }
+
+
 
 @media (max-width:1250px) {
     .carousel,

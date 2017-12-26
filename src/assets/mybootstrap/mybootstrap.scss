@@ -1,0 +1,24 @@
+
+// 用于修改bootstrap和ngx-bootstrap的样式
+
+// 修改ngx轮播导航点的样式
+.carousel-indicators li {
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    margin: 1px;
+    text-indent: -999px;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    cursor: pointer;
+    background-color: #000;
+    background-color: transparent;
+    opacity: 0.5;
+}
+.carousel-indicators .active {
+    margin: 1px;
+    width: 50px;
+    height: 4px;
+    background-color: #fff;
+    opacity: 1 !important;
+}
