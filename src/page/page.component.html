@@ -67,7 +67,7 @@
     <div class="carousel-login">
         <div class="login">
             <p>跟进你的学习进度</p>
-            <img src="../assets/imgs/login-img.png" >
+            <img src="../assets/imgs/login-img.png">
             <a>登录</a>
         </div>
         <div id="carousel-nav">
@@ -425,19 +425,21 @@
 
 
 </div>
-<div class="container-fluid">
+<div class="container-fluid" id="classContent">
     <div class="option">
         <ul class="list-inline">
-            <li [class.option-li]="liClick" (click)="liClick=!liClick">精选推荐</li>
-            <li>编程语言</li>
-            <li>平面设计</li>
-            <li>高中</li>
-            <li>实用英语</li>
-            <li>文艺修养</li>
+            <li routerLink="/page/selectionrecommend" routerLinkActive="option-li">精选推荐</li>
+            <li routerLink="/page/programme" routerLinkActive="option-li">编程语言</li>
+            <li routerLink="/">平面设计</li>
+            <li routerLink="/">高中</li>
+            <li routerLink="/">实用英语</li>
+            <li routerLink="/">文艺修养</li>
+
         </ul>
         <a href="#">修改兴趣</a>
     </div>
 </div>
 <div id="router">
+    <router-outlet></router-outlet>
 
 </div>

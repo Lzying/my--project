@@ -1,5 +1,4 @@
 import { Component, HostListener} from '@angular/core';
-import { Imgs } from '../assets/cont/carouse.imgs';
 
 
 @Component({
@@ -12,7 +11,6 @@ export class PageComponent {
     /**
      * 定义导航条上课堂和机构的切换
      */
-    liClick = false;
     isSearch = false;
     isMyClass=false;
     searchClass: string = "课堂";
